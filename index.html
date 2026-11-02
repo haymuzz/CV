@@ -1,163 +1,235 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
-  <meta name="theme-color" content="#f8f7f3">
-  <meta name="description" content="Егор Хаймусов — Junior Data Analyst. Аналитические проекты, навыки, публикации и контакты.">
-  <meta property="og:title" content="Егор Хаймусов — Data Analyst">
-  <meta property="og:description" content="Портфолио проектов по Python, SQL, аналитике данных и ETL.">
-  <title>Егор Хаймусов — аналитик данных</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=rf2">
+  <meta name="theme-color" content="#101113">
+  <meta name="description" content="Егор Хаймусов — Junior Data Analyst. Резюме, навыки и проекты по аналитике данных, Python, SQL и ETL.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Егор Хаймусов · Data Analyst">
+  <meta property="og:description" content="Портфолио аналитика данных: проекты, навыки, публикации, контакты.">
+  <title>Егор Хаймусов — Data Analyst · CV</title>
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body id="top">
-<header class="header" id="header">
-  <div class="container nav">
-    <a class="logo" href="#top" aria-label="Егор Хаймусов, в начало"><span class="logo-initial">ЕХ<span class="logo-dot">.</span></span><span class="logo-label">PORTFOLIO / CV</span></a>
-    <button class="menu-toggle" type="button" aria-controls="navigation" aria-expanded="false" aria-label="Открыть меню"><span></span><span></span></button>
-    <nav class="links" id="navigation" aria-label="Разделы портфолио">
-      <a href="#about">Обо мне</a><a href="#skills">Навыки</a><a href="#work">Проекты</a><a href="#research">Исследования</a><a class="nav-contact" href="#contact">Связаться <span aria-hidden="true">↗</span></a>
-    </nav>
-  </div>
-</header>
-
-<main>
-  <section class="hero" aria-labelledby="hero-name">
-    <div class="hero-ambient"></div>
-    <div class="container hero-layout">
-      <div class="hero-copy">
-        <p class="overline"><span class="overline-line"></span> Портфолио аналитика данных</p>
-        <p class="hero-greeting">Привет, меня зовут</p>
-        <h1 id="hero-name"><span>Егор</span><span>Хаймусов<span class="hero-period">.</span></span></h1>
-        <p class="hero-position">Junior Data Analyst</p>
-        <p class="hero-desc">Исследую данные, работаю с Python и SQL, разрабатываю аналитические решения и превращаю результаты анализа в понятные выводы.</p>
-        <div class="hero-actions">
-          <a href="#work" class="button button-main">Посмотреть проекты <span aria-hidden="true">↗</span></a>
-          <a href="https://github.com/haymuzz/MyProjects---DataAnalyst/blob/main/resume/Egor_Khaimusov_Resume.pdf" class="button button-outline" target="_blank" rel="noopener noreferrer">Резюме PDF <span aria-hidden="true">↓</span></a>
-        </div>
-        <div class="hero-contacts"><a href="https://github.com/haymuzz" target="_blank" rel="noopener noreferrer">GitHub ↗</a><span class="sep"></span><a href="https://t.me/thehaymuz" target="_blank" rel="noopener noreferrer">Telegram ↗</a></div>
-      </div>
-      <div class="hero-portrait">
-        <div class="portrait-back"></div>
-        <div class="portrait-frame">
-          <img src="./assets/profile-photo-v2.webp" alt="Фотография Егора Хаймусова" width="1254" height="1254" decoding="async" fetchpriority="high">
-        </div>
-        <div class="portrait-note"><span class="portrait-note-icon">✳</span><span>DATA<br>ANALYTICS</span></div>
-        <span class="portrait-caption">PERSONAL PROFILE / 2026</span>
-      </div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#top" aria-label="Егор Хаймусов — главная">ЕХ<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-controls="main-navigation" aria-expanded="false" aria-label="Открыть меню">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="main-navigation" class="main-nav" aria-label="Навигация">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Portfolio</a><a href="#research">Research</a><a href="#contact">Contact</a>
+      </nav>
     </div>
-    <div class="container hero-bottom"><span>01 / НАЧАЛО</span><span>ЛИСТАЙТЕ ВНИЗ <span aria-hidden="true">↓</span></span></div>
-  </section>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-image" aria-hidden="true"><img src="assets/profile-photo-v2.webp" width="1254" height="1254" alt="" fetchpriority="high"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="hero-meta">PORTFOLIO / 2026</p>
+        <h1 id="hero-title"><span>Егор</span><span>Хаймусов</span></h1>
+        <p class="hero-role">Junior Data Analyst</p>
+        <p class="hero-summary">Python · SQL · Product Analytics · Data Engineering</p>
+        <a class="hero-cta" href="#about">Обо мне <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-social" aria-label="Социальные ссылки">
+        <a href="https://github.com/haymuzz" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GH</a>
+        <a href="https://t.me/thehaymuz" target="_blank" rel="noopener noreferrer" aria-label="Telegram">TG</a>
+        <a href="mailto:ha1musov@yandex.ru" aria-label="Email">@</a>
+      </div>
+      <span class="hero-index">SCROLL TO EXPLORE ↓</span>
+    </section>
 
-  <section class="about section" id="about">
-    <div class="container section-two-col">
-      <div class="section-side"><span class="number">01</span><span class="section-kicker">ОБО МНЕ</span></div>
-      <div class="section-content">
-        <h2>Аналитика, которая <em>помогает разобраться</em> в данных.</h2>
+    <section class="about section-light" id="about">
+      <div class="section-wrap about-layout">
         <div class="about-text">
-          <p>Я <strong>Егор Хаймусов</strong>, Junior Data Analyst. В моём портфолио — практические проекты по исследованию данных, SQL, продуктовым метрикам, ETL и базовому машинному обучению.</p>
-          <p>Мне интересны задачи, где нужно найти закономерности, проверить гипотезы, объяснить результаты и подготовить основу для принятия решений.</p>
+          <span class="small-heading">01 / ABOUT</span>
+          <h2>Данные помогают<br><em>видеть больше.</em></h2>
+          <p>Меня зовут <strong>Егор Хаймусов</strong>. Я начинающий аналитик данных. Работаю с Python и SQL, исследую продуктовые метрики и разрабатываю учебные аналитические решения.</p>
+          <p>Мне интересны задачи, в которых нужно разобраться в причинах изменений, проверить гипотезы, найти аномалии и представить результаты в понятной форме.</p>
+          <a class="inline-link" href="https://github.com/haymuzz/MyProjects---DataAnalyst/blob/main/resume/Egor_Khaimusov_Resume.pdf" target="_blank" rel="noopener noreferrer">Посмотреть PDF-резюме ↗</a>
         </div>
-        <a class="text-link" href="https://github.com/haymuzz/MyProjects---DataAnalyst" target="_blank" rel="noopener noreferrer">Все проекты на GitHub <span aria-hidden="true">↗</span></a>
-      </div>
-    </div>
-  </section>
-
-  <section class="skills-section section" id="skills">
-    <div class="container">
-      <div class="section-heading">
-        <div><span class="eyebrow">02 / МОИ ИНСТРУМЕНТЫ</span><h2>Навыки <span class="serif">&</span> технологии</h2></div>
-        <p>Инструменты и направления работы, указанные в моём открытом GitHub-портфолио.</p>
-      </div>
-      <div class="skill-grid">
-      <article class="skill"><span class="skill-num">01</span><div><h3>Python и библиотеки</h3><p>Python · pandas · NumPy · matplotlib · seaborn · scikit-learn</p></div></article>
-<article class="skill"><span class="skill-num">02</span><div><h3>SQL и базы данных</h3><p>PostgreSQL · Greenplum · CTE · JOIN · оконные функции</p></div></article>
-<article class="skill"><span class="skill-num">03</span><div><h3>Продуктовая аналитика</h3><p>Retention · churn · RFM · когортный анализ · A/B-тестирование</p></div></article>
-<article class="skill"><span class="skill-num">04</span><div><h3>Инженерия данных</h3><p>ETL · Apache Airflow · REST API · Git · автоматизация</p></div></article>
-<article class="skill"><span class="skill-num">05</span><div><h3>ML и статистика</h3><p>Классификация · кластеризация · прогнозирование · оценка моделей</p></div></article>
-<article class="skill"><span class="skill-num">06</span><div><h3>Системный анализ</h3><p>BPMN · UML · AS-IS / TO-BE · требования</p></div></article>
-      </div>
-    </div>
-  </section>
-
-  <section class="work section" id="work">
-    <div class="container">
-      <div class="section-heading">
-        <div><span class="eyebrow">03 / ПОРТФОЛИО</span><h2>Избранные <span class="serif">проекты</span></h2></div>
-        <p>Шесть проектов. В каждом — постановка задачи, рабочие материалы и описание методов.</p>
-      </div>
-      <div class="project-list">
-      <article class="project-row">
-  <span class="project-index">01</span>
-  <div class="project-main"><span class="project-tag">Продуктовая аналитика</span><h3>Olist Marketplace</h3><p>Анализ заказов, выручки, доставки и отзывов покупателей на маркетплейсе.</p></div>
-  <div class="project-aside"><span class="project-tech">Python / SQL / pandas</span><a class="project-arrow" href="https://github.com/haymuzz/MyProjects---DataAnalyst/tree/main/olist-marketplace-product-analytics" target="_blank" rel="noopener noreferrer" aria-label="Открыть проект Olist Marketplace на GitHub">↗</a></div>
-</article>
-<article class="project-row">
-  <span class="project-index">02</span>
-  <div class="project-main"><span class="project-tag">Машинное обучение</span><h3>Fraud Detection & Risk Scoring</h3><p>Исследование транзакций и прототип модели для оценки риска мошенничества.</p></div>
-  <div class="project-aside"><span class="project-tech">Python / scikit-learn / SQL</span><a class="project-arrow" href="https://github.com/haymuzz/MyProjects---DataAnalyst/tree/main/fraud-detection-risk-scoring" target="_blank" rel="noopener noreferrer" aria-label="Открыть проект Fraud Detection & Risk Scoring на GitHub">↗</a></div>
-</article>
-<article class="project-row">
-  <span class="project-index">03</span>
-  <div class="project-main"><span class="project-tag">ETL и прогнозирование</span><h3>Store Sales Forecasting</h3><p>Подготовка данных, контроль качества и прогноз продаж магазинов.</p></div>
-  <div class="project-aside"><span class="project-tech">Python / Airflow / ML</span><a class="project-arrow" href="https://github.com/haymuzz/MyProjects---DataAnalyst/tree/main/store-sales-forecasting-etl" target="_blank" rel="noopener noreferrer" aria-label="Открыть проект Store Sales Forecasting на GitHub">↗</a></div>
-</article>
-<article class="project-row">
-  <span class="project-index">04</span>
-  <div class="project-main"><span class="project-tag">Эксперименты</span><h3>Telco Retention</h3><p>Анализ оттока клиентов и дизайн A/B-теста для проверки гипотез удержания.</p></div>
-  <div class="project-aside"><span class="project-tech">Python / SQL / статистика</span><a class="project-arrow" href="https://github.com/haymuzz/MyProjects---DataAnalyst/tree/main/telco-retention-experiment-design" target="_blank" rel="noopener noreferrer" aria-label="Открыть проект Telco Retention на GitHub">↗</a></div>
-</article>
-<article class="project-row">
-  <span class="project-index">05</span>
-  <div class="project-main"><span class="project-tag">Рекомендательные системы</span><h3>MovieLens Recommendation API</h3><p>Прототип персональных рекомендаций с REST API.</p></div>
-  <div class="project-aside"><span class="project-tech">Python / FastAPI / SQLite</span><a class="project-arrow" href="https://github.com/haymuzz/MyProjects---DataAnalyst/tree/main/movielens-recommendation-api" target="_blank" rel="noopener noreferrer" aria-label="Открыть проект MovieLens Recommendation API на GitHub">↗</a></div>
-</article>
-<article class="project-row">
-  <span class="project-index">06</span>
-  <div class="project-main"><span class="project-tag">Сегментация</span><h3>Customer Lifetime Value</h3><p>RFM-анализ, кластеризация и оценка ценности клиентских групп.</p></div>
-  <div class="project-aside"><span class="project-tech">Python / SQL / clustering</span><a class="project-arrow" href="https://github.com/haymuzz/MyProjects---DataAnalyst/tree/main/customer-lifetime-value-segmentation" target="_blank" rel="noopener noreferrer" aria-label="Открыть проект Customer Lifetime Value на GitHub">↗</a></div>
-</article>
-      </div>
-      <div class="more-work"><span>Больше примеров в моём репозитории аналитики данных.</span><a href="https://github.com/haymuzz/MyProjects---DataAnalyst" target="_blank" rel="noopener noreferrer" class="button button-dark">Открыть портфолио ↗</a></div>
-    </div>
-  </section>
-
-  <section class="research section" id="research">
-    <div class="container research-layout">
-      <div class="research-heading"><span class="eyebrow eyebrow-light">04 / ДОПОЛНИТЕЛЬНО</span><h2>Исследования<br><span class="serif">& материалы</span></h2><p>Другие работы и документы из моих публичных репозиториев.</p></div>
-      <div class="research-list">
-        <a href="https://github.com/haymuzz/Publications-" target="_blank" rel="noopener noreferrer"><span class="research-item-num">01</span><div><h3>Publications</h3><p>Статьи и конференционные материалы</p></div><span class="research-arrow">↗</span></a>
-        <a href="https://github.com/haymuzz/-data-engineering" target="_blank" rel="noopener noreferrer"><span class="research-item-num">02</span><div><h3>Data Engineering</h3><p>Документ по теме «Витрины данных»</p></div><span class="research-arrow">↗</span></a>
-        <a href="https://github.com/haymuzz/CupMoscow2026---TrueOrFalse" target="_blank" rel="noopener noreferrer"><span class="research-item-num">03</span><div><h3>True or False</h3><p>Материал Кубка Москвы 2026 · Авито</p></div><span class="research-arrow">↗</span></a>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact-section section" id="contact">
-    <div class="container contact-layout">
-      <div>
-        <span class="eyebrow">05 / КОНТАКТЫ</span>
-        <h2>Обсудим<br><span class="serif">вашу задачу?</span></h2>
-        <p>Напишите мне или посмотрите мои проекты и резюме.</p>
-      </div>
-      <div class="contact-panel">
-        <a class="contact-email" href="mailto:ha1musov@yandex.ru">ha1musov@yandex.ru <span aria-hidden="true">↗</span></a>
-        <div class="contact-rows">
-          <a href="https://github.com/haymuzz" target="_blank" rel="noopener noreferrer"><span>GitHub</span><span>haymuzz ↗</span></a>
-          <a href="https://t.me/thehaymuz" target="_blank" rel="noopener noreferrer"><span>Telegram</span><span>@thehaymuz ↗</span></a>
-          <a href="https://github.com/haymuzz/MyProjects---DataAnalyst/blob/main/resume/Egor_Khaimusov_Resume.pdf" target="_blank" rel="noopener noreferrer"><span>Резюме</span><span>Открыть PDF ↗</span></a>
+        <div class="about-side">
+          <h3>Егор Хаймусов</h3>
+          <p class="about-side-role">Junior Data Analyst</p>
+          <div class="about-avatar"><img src="assets/profile-photo-v2.webp" width="1254" height="1254" loading="lazy" alt="Чёрно-белый портрет Егора Хаймусова"></div>
+          <p class="about-side-caption">Работы и исходный код доступны на GitHub.</p>
         </div>
       </div>
+    </section>
+
+    <section class="quick-links" aria-label="Разделы сайта">
+      <div class="section-wrap quick-grid">
+        <a href="#skills" class="quick-item">
+          <span class="quick-icon" aria-hidden="true">{ }</span><h3>Skills</h3><p>Python, SQL и инструменты работы с данными</p><span class="quick-more">Подробнее →</span>
+        </a>
+        <a href="#projects" class="quick-item">
+          <span class="quick-icon" aria-hidden="true">✦</span><h3>Portfolio</h3><p>Аналитические задачи, модели и практические проекты</p><span class="quick-more">Смотреть →</span>
+        </a>
+        <a href="#research" class="quick-item">
+          <span class="quick-icon" aria-hidden="true">▣</span><h3>Research</h3><p>Публикации, исследовательские материалы и отчёты</p><span class="quick-more">Открыть →</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="skills section-light" id="skills">
+      <div class="section-wrap">
+        <div class="skills-intro">
+          <div><span class="small-heading">02 / SKILLS</span><h2>Навыки<br>и инструменты</h2></div>
+          <p>Для исследования данных использую Python и SQL, библиотеки аналитики и визуализации. В проектах также работаю с ETL-процессами, метриками и базовым машинным обучением.</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill"><span class="skill-big">PY</span><div class="skill-small"><h3>Python</h3><p>pandas, NumPy, matplotlib, seaborn, scikit-learn</p></div></div>
+<div class="skill"><span class="skill-big">SQL</span><div class="skill-small"><h3>SQL</h3><p>PostgreSQL, Greenplum, CTE, JOIN, оконные функции</p></div></div>
+<div class="skill"><span class="skill-big">EDA</span><div class="skill-small"><h3>Анализ данных</h3><p>Очистка данных, визуализация, исследовательский анализ</p></div></div>
+<div class="skill"><span class="skill-big">A/B</span><div class="skill-small"><h3>Продуктовая аналитика</h3><p>Retention, churn, когорты, RFM, A/B-тесты</p></div></div>
+<div class="skill"><span class="skill-big">ETL</span><div class="skill-small"><h3>Data Engineering</h3><p>ETL-процессы, Apache Airflow, REST API, Git</p></div></div>
+<div class="skill"><span class="skill-big">ML</span><div class="skill-small"><h3>Machine Learning</h3><p>Классификация, сегментация, прогнозирование</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="focus-band" aria-label="Направления аналитики">
+      <div class="focus-pattern" aria-hidden="true"></div>
+      <div class="section-wrap">
+        <h2>Направления</h2>
+        <div class="focus-list"><span>Data Analysis</span><span>Product Analytics</span><span>Data Engineering</span></div>
+      </div>
+    </section>
+
+    <section class="projects section-light" id="projects">
+      <div class="section-wrap">
+        <div class="center-head"><span class="small-heading">03 / PORTFOLIO</span><h2>Мои проекты</h2><p>Реальные репозитории с описанием задач, кодом и аналитическими материалами.</p></div>
+        <div class="portfolio-grid">
+          <article class="portfolio-card">
+  <a class="portfolio-link" href="https://github.com/haymuzz/MyProjects---DataAnalyst/tree/main/olist-marketplace-product-analytics" target="_blank" rel="noopener noreferrer" aria-label="Посмотреть Olist Marketplace на GitHub">
+    <div class="portfolio-art art-commerce" aria-hidden="true">
+      <div class="art-inner">
+        <span class="art-no">01</span>
+        <span class="art-key">Product Analytics</span>
+        <div class="art-pattern"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      </div>
     </div>
-  </section>
-</main>
-<footer class="footer">
-  <div class="container footer-inner"><a href="#top" class="footer-name">ЕХ.</a><p>© <span id="year">2026</span> Егор Хаймусов. Портфолио.</p><a href="#top">Наверх ↑</a></div>
-</footer>
-<script src="./script.js?v=rf2" defer></script>
+    <div class="portfolio-details"><span class="portfolio-num">PROJECT / 01</span><span class="portfolio-open">↗</span>
+      <h3>Olist Marketplace</h3><p>Заказы, выручка, сроки доставки и клиентский опыт на маркетплейсе.</p><span class="portfolio-stack">Python · SQL · pandas</span>
+    </div>
+  </a>
+</article>
+<article class="portfolio-card">
+  <a class="portfolio-link" href="https://github.com/haymuzz/MyProjects---DataAnalyst/tree/main/fraud-detection-risk-scoring" target="_blank" rel="noopener noreferrer" aria-label="Посмотреть Fraud Detection на GitHub">
+    <div class="portfolio-art art-fraud" aria-hidden="true">
+      <div class="art-inner">
+        <span class="art-no">02</span>
+        <span class="art-key">Risk Analytics</span>
+        <div class="art-pattern"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      </div>
+    </div>
+    <div class="portfolio-details"><span class="portfolio-num">PROJECT / 02</span><span class="portfolio-open">↗</span>
+      <h3>Fraud Detection</h3><p>Поиск подозрительных транзакций и прототип модели риск-скоринга.</p><span class="portfolio-stack">Python · scikit-learn · SQL</span>
+    </div>
+  </a>
+</article>
+<article class="portfolio-card">
+  <a class="portfolio-link" href="https://github.com/haymuzz/MyProjects---DataAnalyst/tree/main/store-sales-forecasting-etl" target="_blank" rel="noopener noreferrer" aria-label="Посмотреть Store Sales Forecasting на GitHub">
+    <div class="portfolio-art art-forecast" aria-hidden="true">
+      <div class="art-inner">
+        <span class="art-no">03</span>
+        <span class="art-key">ETL / Forecasting</span>
+        <div class="art-pattern"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      </div>
+    </div>
+    <div class="portfolio-details"><span class="portfolio-num">PROJECT / 03</span><span class="portfolio-open">↗</span>
+      <h3>Store Sales Forecasting</h3><p>Пайплайн подготовки данных и базовое прогнозирование продаж магазинов.</p><span class="portfolio-stack">Python · Airflow · ML</span>
+    </div>
+  </a>
+</article>
+<article class="portfolio-card">
+  <a class="portfolio-link" href="https://github.com/haymuzz/MyProjects---DataAnalyst/tree/main/telco-retention-experiment-design" target="_blank" rel="noopener noreferrer" aria-label="Посмотреть Telco Retention на GitHub">
+    <div class="portfolio-art art-telco" aria-hidden="true">
+      <div class="art-inner">
+        <span class="art-no">04</span>
+        <span class="art-key">Experiment Design</span>
+        <div class="art-pattern"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      </div>
+    </div>
+    <div class="portfolio-details"><span class="portfolio-num">PROJECT / 04</span><span class="portfolio-open">↗</span>
+      <h3>Telco Retention</h3><p>Анализ оттока клиентов и дизайн A/B-эксперимента по удержанию.</p><span class="portfolio-stack">Python · SQL · статистика</span>
+    </div>
+  </a>
+</article>
+<article class="portfolio-card">
+  <a class="portfolio-link" href="https://github.com/haymuzz/MyProjects---DataAnalyst/tree/main/movielens-recommendation-api" target="_blank" rel="noopener noreferrer" aria-label="Посмотреть MovieLens API на GitHub">
+    <div class="portfolio-art art-movies" aria-hidden="true">
+      <div class="art-inner">
+        <span class="art-no">05</span>
+        <span class="art-key">Recommender Systems</span>
+        <div class="art-pattern"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      </div>
+    </div>
+    <div class="portfolio-details"><span class="portfolio-num">PROJECT / 05</span><span class="portfolio-open">↗</span>
+      <h3>MovieLens API</h3><p>Прототип рекомендательной системы и API для персональных рекомендаций.</p><span class="portfolio-stack">Python · FastAPI · SQLite</span>
+    </div>
+  </a>
+</article>
+<article class="portfolio-card">
+  <a class="portfolio-link" href="https://github.com/haymuzz/MyProjects---DataAnalyst/tree/main/customer-lifetime-value-segmentation" target="_blank" rel="noopener noreferrer" aria-label="Посмотреть Customer Lifetime Value на GitHub">
+    <div class="portfolio-art art-clv" aria-hidden="true">
+      <div class="art-inner">
+        <span class="art-no">06</span>
+        <span class="art-key">Customer Segmentation</span>
+        <div class="art-pattern"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      </div>
+    </div>
+    <div class="portfolio-details"><span class="portfolio-num">PROJECT / 06</span><span class="portfolio-open">↗</span>
+      <h3>Customer Lifetime Value</h3><p>RFM-сегментация, кластеризация и оценка ценности клиентских групп.</p><span class="portfolio-stack">Python · SQL · clustering</span>
+    </div>
+  </a>
+</article>
+        </div>
+        <div class="projects-footer"><a class="outline-button" href="https://github.com/haymuzz/MyProjects---DataAnalyst" target="_blank" rel="noopener noreferrer">Все проекты на GitHub <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="research section-light" id="research">
+      <div class="section-wrap">
+        <div class="center-head"><span class="small-heading">04 / RESEARCH</span><h2>Исследования и материалы</h2><p>Отдельные работы из моих публичных репозиториев.</p></div>
+        <div class="research-timeline">
+          <article class="research-entry"><span class="timeline-number">01</span><div><h3>Публикации</h3><p>Архив статей, исследовательских и конференционных материалов.</p><a href="https://github.com/haymuzz/Publications-" target="_blank" rel="noopener noreferrer">Перейти к материалам ↗</a></div></article>
+          <article class="research-entry"><span class="timeline-number">02</span><div><h3>Витрины данных</h3><p>Работа по направлению Data Engineering в формате PDF.</p><a href="https://github.com/haymuzz/-data-engineering" target="_blank" rel="noopener noreferrer">Открыть отчёт ↗</a></div></article>
+          <article class="research-entry"><span class="timeline-number">03</span><div><h3>True or False — Кубок Москвы 2026</h3><p>Материал, связанный с Авито, в формате PDF.</p><a href="https://github.com/haymuzz/CupMoscow2026---TrueOrFalse" target="_blank" rel="noopener noreferrer">Открыть материал ↗</a></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-light" id="contact">
+      <div class="section-wrap contact-grid">
+        <div>
+          <span class="small-heading">05 / CONTACT</span>
+          <h2>Свяжитесь<br>со мной</h2>
+          <p>Есть идея для совместного проекта или вопрос? Напишите на почту или через Telegram.</p>
+          <a href="mailto:ha1musov@yandex.ru" class="contact-email">ha1musov@yandex.ru</a>
+          <div class="contact-social"><a href="https://github.com/haymuzz" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://t.me/thehaymuz" target="_blank" rel="noopener noreferrer">Telegram ↗</a></div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <label for="sender-name">Ваше имя</label><input id="sender-name" name="name" type="text" placeholder="Как к вам обращаться" maxlength="120" required>
+          <label for="sender-email">Ваш Email</label><input id="sender-email" name="email" type="email" placeholder="example@mail.com" maxlength="180" required>
+          <label for="sender-message">Сообщение</label><textarea id="sender-message" name="message" rows="6" placeholder="Напишите ваше сообщение..." maxlength="5000" required></textarea>
+          <button type="submit">Написать письмо ↗</button>
+          <p class="form-hint">Кнопка откроет почтовое приложение с подготовленным письмом. Сообщение не отправляется автоматически.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="section-wrap footer-inner">
+      <p>© <span id="year">2026</span> Егор Хаймусов · Data Analyst</p>
+      <nav aria-label="Навигация в подвале"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Portfolio</a><a href="#research">Research</a><a href="#contact">Contact</a></nav>
+      <a class="backtop" href="#top" aria-label="Наверх">↑</a>
+    </div>
+  </footer>
+  <script src="script.js?v=4" defer></script>
 </body>
 </html>
