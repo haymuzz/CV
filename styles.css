@@ -9,7 +9,7 @@ body{margin:0;color:var(--text);background:radial-gradient(ellipse 55% 30% at 12
 .menu-toggle{display:none;border:1px solid var(--line);color:var(--text);background:transparent;border-radius:9px;padding:9px 13px;font:inherit;font-size:13px;cursor:pointer}
 .hero{padding:90px 0 45px}.hero-grid{display:grid;grid-template-columns:1.06fr .94fr;align-items:center;gap:70px}
 .eyebrow,.section-label{color:#a4a4a6;letter-spacing:.2em;font-size:11px;text-transform:uppercase;font-weight:750}
-.eyebrow{margin:0 0 23px}h1{font-size:clamp(51px,7.6vw,100px);text-transform:uppercase;line-height:1.2;letter-spacing:-.06em;font-weight:800;margin:0 0 24px}
+.eyebrow{margin:0 0 23px}h1{font-size:clamp(51px,7.6vw,100px);text-transform:uppercase;line-height:1.08;letter-spacing:-.05em;font-weight:800;margin:0 0 28px}.name-line{display:block;white-space:nowrap}.name-line+.name-line{margin-top:26px}
 .subtitle{font-weight:700;letter-spacing:.15em;text-transform:uppercase;font-size:15px;color:#e0dfdd;margin:0 0 19px}
 .hero-text{color:var(--muted);font-size:17px;max-width:525px;margin:0;line-height:1.9}
 .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:29px}
@@ -39,3 +39,6 @@ body{margin:0;color:var(--text);background:radial-gradient(ellipse 55% 30% at 12
 .hero{padding:49px 0 45px}.hero-grid{grid-template-columns:1fr;gap:35px}h1{font-size:clamp(48px,10.5vw,81px)}.hero-photo-wrap{justify-content:start}.hero-photo{width:min(100%,510px);aspect-ratio:4/4;object-position:50% 25%}.section{padding:66px 0}.content-card{padding-left:20px}.skills-grid{grid-template-columns:1fr}.skill-card{min-height:auto}.project-card{display:grid;grid-template-columns:35px 1fr;gap:12px 14px;padding:28px 0}.project-head span{grid-column:1;grid-row:1}.project-head a{grid-column:2;grid-row:4;justify-self:start}.project-card h3{grid-column:2;grid-row:1}.project-card p{grid-column:2;grid-row:2}.project-card .stack{grid-column:2;grid-row:3;margin-top:0}.contacts-grid{gap:15px}}
 @media(max-width:470px){.hero-actions{display:grid;grid-template-columns:1fr}.button{width:100%}.contact-card{align-items:start;flex-direction:column;gap:5px}.contact-value{text-align:left}.footer-row{flex-direction:column;align-items:flex-start}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+
+@media(max-width:700px){.name-line+.name-line{margin-top:18px}h1{font-size:clamp(43px,8vw,76px);letter-spacing:-.055em}}
+@media(max-width:430px){h1{font-size:clamp(38px,9vw,55px)}.name-line+.name-line{margin-top:14px}}
