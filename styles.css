@@ -153,3 +153,46 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
  .about h2,.skills h2,.center-head h2,.contact h2{font-size:38px}.about-text p{font-size:15px}
  .skills-grid,.portfolio-grid{grid-template-columns:1fr}.portfolio-details p{min-height:0}.focus-list{display:grid;gap:20px}.project-art{height:220px}.contact-email{font-size:16px}.footer-inner nav{gap:13px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+
+/* CV v4 business-analyst content */
+.cv-hero-resume{margin-left:11px;border-color:#4fc789;color:#9ff0be}
+.cv-location{margin-top:25px;font-size:12px!important;color:#68788d!important}
+.cv-timeline{max-width:1050px;border-top:1px solid #d6dfe6;margin:0 auto}
+.cv-job{display:grid;grid-template-columns:260px 1fr;gap:40px;border-bottom:1px solid #d6dfe6;padding:35px 0}
+.cv-job-meta{display:flex;flex-direction:column;gap:14px;color:#617389;font-size:12px;line-height:1.7}
+.cv-number{color:#40b878;font:700 32px Georgia,serif}
+.cv-kind{color:#199c63;letter-spacing:.17em;font-weight:800;font-size:10px}
+.cv-job h3{font:700 clamp(23px,3vw,33px) Georgia,serif;margin:12px 0 8px}
+.cv-role{color:#486079;font-size:14px;font-weight:700;margin:0 0 14px}
+.cv-job ul{padding-left:19px;margin:0;display:grid;gap:8px}
+.cv-job li{line-height:1.8;font-size:13px;color:#445c70}
+.cv-job li::marker{color:#36b778}
+.cv-result{max-width:1050px;margin:38px auto 0;padding:24px 30px;background:#e4f3ea;border-left:4px solid #43bd80;display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:center}
+.cv-result span{display:block;color:#298a58;font-size:10px;letter-spacing:.11em;font-weight:800;margin-bottom:8px}
+.cv-result strong{font:700 clamp(25px,3.2vw,38px) Georgia,serif;color:#15452c}
+.cv-result p{color:#426c56;font-size:12px;line-height:1.8;margin:0}
+.cv-case{padding:95px 0;text-align:left}
+.cv-case .section-wrap{text-align:left}
+.cv-case-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:85px;position:relative}
+.cv-case .small-heading{color:#7ee9ac}
+.cv-case-overline{display:block;color:#bed8cc;font-size:11px;letter-spacing:.12em;margin:26px 0 11px}
+.cv-case h2{font:700 clamp(43px,5.8vw,75px)/1.12 Georgia,serif;margin:0 0 23px;color:#fff}
+.cv-case p{font-size:15px;line-height:1.9;color:#cbd9d2}
+.cv-case-link{display:inline-block;margin-top:17px;border-bottom:1px solid #62d99a;padding-bottom:8px;font-size:13px;color:#76edab}
+.cv-case-details{border-left:1px solid #436055;padding-left:33px}
+.cv-case-details h3{font:700 26px Georgia,serif;margin:0 0 20px}
+.cv-case-details ul{padding-left:20px;display:grid;gap:10px}
+.cv-case-details li{color:#d4e2d9;font-size:13px;line-height:1.8}
+.cv-case-details li::marker{color:#67dd9d}
+.cv-goal{display:flex;align-items:center;gap:19px;padding-top:24px;margin-top:25px;border-top:1px solid #3c5b4d}
+.cv-goal strong{font:700 39px Georgia,serif;color:#7be8a8;white-space:nowrap}
+.cv-goal span{color:#c4dcca;font-size:11px;line-height:1.7}
+.cv-education{border-top:1px solid #dae2eb}
+.cv-education-card{max-width:830px;display:flex;justify-content:space-between;align-items:center;gap:22px;margin:0 auto;padding:30px 35px;background:#fff;border-left:4px solid #43ba7c}
+.cv-education-year{font-size:11px;color:#2b995e;font-weight:800;letter-spacing:.13em}
+.cv-education-card h3{font:700 clamp(22px,3vw,30px) Georgia,serif;margin:12px 0}
+.cv-education-card p{font-size:14px;color:#4d5c70;margin:0}
+.cv-education-status{padding:10px 16px;background:#e6f5ec;color:#218b57;font-size:12px;font-weight:700;white-space:nowrap}
+@media(max-width:900px){.cv-job{grid-template-columns:200px 1fr;gap:24px}.cv-case-grid{gap:32px}}
+@media(max-width:750px){.cv-job{grid-template-columns:1fr;gap:15px}.cv-job-meta{flex-direction:row;align-items:center}.cv-result,.cv-case-grid{grid-template-columns:1fr}.cv-case-details{border-left:0;border-top:1px solid #436055;padding:28px 0 0}.cv-hero-resume{margin-left:8px}.cv-education-card{padding:23px;align-items:start;flex-direction:column}}
+@media(max-width:420px){.cv-result{padding:21px;gap:14px}.cv-result strong{font-size:25px}.cv-goal{flex-direction:column;align-items:start}.cv-hero-resume{margin:11px 0 0;display:inline-flex}}

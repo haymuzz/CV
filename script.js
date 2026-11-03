@@ -18,6 +18,6 @@
    const message=document.getElementById("sender-message").value.trim();
    const subject=encodeURIComponent("Сообщение с сайта CV от "+name);
    const body=encodeURIComponent("Имя: "+name+"\nEmail: "+email+"\n\n"+message);
-   window.location.href="mailto:ha1musov@yandex.ru?subject="+subject+"&body="+body;
+   window.location.href="mailto:the@haymuz.ru?subject="+subject+"&body="+body;
  });
 })();
